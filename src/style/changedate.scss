@@ -1,0 +1,31 @@
+.change-date{
+    grid-row: 2/3;
+    grid-column: 4/5;
+
+    font-size: 21px;
+    line-height: 19px;
+    color:white;
+    text-align: center;
+    font-family: $font-roboto;
+    font-weight:500;
+
+    background-color: transparent;
+    border: none;
+
+    transform: rotate(-70deg) translate(-30px, -30px);
+    align-self: start;
+    justify-self: start;
+    width:100%;
+   
+    &:focus{
+        outline:none;
+    }
+
+    i{
+        margin-right: 10px;
+        color: white;
+    }
+    
+}
+
+
